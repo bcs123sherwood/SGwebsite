@@ -1,0 +1,67 @@
+
+
+.jumbotron-fluid {
+      height: 400px;
+      padding-bottom: 10%;
+      font-family: 'Play', sans-serif;
+}
+
+.mainJumbo {
+      background: linear-gradient(to bottom, #ef3b36, #ffffff);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      height: 550px;
+      padding-bottom: 10%;
+      font-family: 'Play', sans-serif;
+      background-attachment: fixed;
+}
+
+.recruiting {
+      color: white;
+      background: linear-gradient(to bottom, #0b486b, #f56217); 
+      background-attachment: fixed;
+}
+
+.leadership {
+      color: black;
+      background: linear-gradient(to bottom, #00c6ff, #fff);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-attachment: fixed;
+}
+
+.positive {
+      color: black;
+      background: linear-gradient(to bottom, #fff, #0072ff);
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      background-attachment: fixed;
+}
+
+a {
+      font-size: 1.5em;
+}
+
+
+
+.logo {
+      padding-bottom: 20px;
+}
+
+.logo2 {
+      padding-top: 20px;
+}
+
+.tech,
+.marketing,
+.sales,
+.finance,
+.construction {
+      padding: 2.5%;
+}
+
+h3 {
+      color: red;
+}
+
+.heading {
+      font-family: 'Jura', sans-serif;
+}
+
