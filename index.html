@@ -6,13 +6,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Shields Global</title>
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-    crossorigin="anonymous">
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600" rel="stylesheet">
-
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
@@ -20,38 +20,48 @@
   <!--NavBar-->
 
   <div class="container">
-    <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-        aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-      <a class="navbar-brand" href="index.html">
-        <img src="img/SGlogo.png" width="100" height="50" alt="">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#leadership">Leadership</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <img src="img/SGlogo.png" width="110" height="60" alt="Shields Global Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#leadership">Leadership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div>
-
+  <div id="home">
   <div class="Container-fluid">
-    <div class="jumbotron mainJumbo">
-      <div class="display-1 mt-4">Shields Global</div>
-      <div class="display-4 m-3">SOLUTIONS BY SHIELDS </div>
-      <p class="lead m-3">TECHNOLOGY, SALES, MARKETING, FINANCE & CONSTRUCTION</p>
-      <img src="img/logo2.png" class="float-right img-fluid logo" width="200" height="100" alt="">
+    <div class="jumbotron mainJumbo text-center">
+      <div class="container pt-5 mt-5">
+        <div class="display-1">Shields Global</div>
+        <div class="display-4 my-4">SOLUTIONS BY SHIELDS</div>
+        <p class="lead mb-4">TECHNOLOGY, SALES, MARKETING, FINANCE & CONSTRUCTION</p>
+        <img src="img/logo2.png" class="img-fluid logo" width="200" height="100" alt="Shields Global Logo">
+      </div>
     </div>
   </div>
+</div>
 
 
   <!--About Section-->
@@ -59,7 +69,7 @@
   <div id="about">
     <div class="container">
 
-      <h1 class="display-2 text-left m-3 heading">ABOUT</h1>
+      <h1 class="display-2 text-left m-3 pt-5 heading">ABOUT</h1>
 
       <div class="row">
         <div class="col-sm-12 col-lg-6">
@@ -80,15 +90,15 @@
 
   <!--Services-->
 
-  <div id=services>
+
 
     <div class="jumbotron-fluid recruiting">
-      <div class="display-3 text-center pt-4">EXPERTS IN RECRUITING</div>
+      <div class="display-3 text-center m-3 pt-5">EXPERTS IN RECRUITING</div>
     </div>
-
+    <div id=services>
     <div class="container">
-      <div class="display-2 text-left m-3 heading">Services</div>
-      <h3 class=" m-4">SHIELDS GLOBAL OFFERS RECRUITING SERVICES IN FIVE AREAS; INFORMATION TECHNOLOGY, SALES, FINANCE, MARKETING, AND CONSTRUCTION.</h3>
+      <div class="display-2 text-left m-3 pt-5 heading">Services</div>
+      <h3 class=" m-3 pt-5">SHIELDS GLOBAL OFFERS RECRUITING SERVICES IN FIVE AREAS; INFORMATION TECHNOLOGY, SALES, FINANCE, MARKETING, AND CONSTRUCTION.</h3>
 
       <!--Information Tech-->
 
@@ -98,7 +108,7 @@
             <img class="d-flex align-self-start mr-3" src="img/web.png" alt="Generic placeholder image">
             <div class="media-body">
               <h1 class="mt-0 text-center">INFORMATION TECHNOLOGY</h1>
-              <p class="lead text-center m-2">We seek only the most highly qualified candidates to fill your company’s needs. Technology changes quickly,
+              <p class="lead text-center m-2">We seek only the most highly qualified candidates to fill your company's needs. Technology changes quickly,
                 and it is important to have specialists in place that are able to stay ahead of developing trends. Our network
                 is filled with specialists for various need levels.</p>
             </div>
@@ -169,27 +179,27 @@
 
  
  <!--LeaderShip-->
-  <div id="leadership">
+ <div id="leadership">  
     <div class="jumbotron-fluid leadership">
-      <div class="display-3 text-center">IN SEARCH OF TOP TALENT</div>
+      <div class="display-3 text-center m-3 pt-5">IN SEARCH OF TOP TALENT</div>
       <img src="img/SGlogo.png" class="img-fluid mx-auto d-block logo2" width="400" height="250" alt="">
 
     </div>
 
     
-
+    
     <div class="container">
-      <h1 class="display-3 text-left pb-3 pt-3 heading">LEADERSHIP</h1>
+      <h1 class="display-3 text-left m-3 pt-5 heading">LEADERSHIP</h1>
 
       <div class="row">
         <div class="col-sm-12 col-lg-6 m-3">
-          <h3>CHIEF EXECUTIVE OFFICER – MICHAEL SHIELDS IS IVY LEAGUE EDUCATED WITH MORE THAN 5 YEARS OF RECRUITING EXPERIENCE.</h3>
+          <h3>CHIEF EXECUTIVE OFFICER – MICHAEL SHIELDS</h3>
         </div>
         <div class="col-sm-12 col-lg-12 m-3">
           <p class="lead">His background includes finance, technology, marketing, and sales. Michael Shields has worked closely with top
             companies such as Bank of America, Apple, Converse, and Snapchat to improve their staffing procedures, providing
-            an efficient process in recruiting and hiring top talent. Throughout Shield’s career he has gained knowledge
-            and insight on what companies’ value in addition to the type of talent that will exceed companies’ needs and
+            an efficient process in recruiting and hiring top talent. Throughout Shield's career he has gained knowledge
+            and insight on what companies' value in addition to the type of talent that will exceed companies' needs and
             targets.
           </p>
         </div>
@@ -197,22 +207,22 @@
     </div>
   </div>
 
-  <div class="jumbotron-fluid positive">
-    <div class="display-3 text-center">MAKING A POSITIVE IMPACT</div>
-  </div>
+  <!-- <div class="jumbotron-fluid positive">
+    <div class="display-4 text-center m-2 pt-4 ">MAKING A POSITIVE IMPACT</div>
+  </div> -->
 
   <!--Footer-->
-
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4 pt-3">
-        <a href="https://www.facebook.com/Shields-Global-788929854595849/">
+<div id="contact">
+  <div class="container contact-container">
+    <div class="row m-3 pt-5">
+      <div class="col-sm-3">
+        <a href="https://www.facebook.com/Shields-Global-788929854595849/" target="_blank">
           <img src="img/facebook.png" class="img-fluid " alt="Responsive image">
         </a>
-        <a href="https://www.instagram.com/shieldsglobal/">
+        <a href="https://www.instagram.com/shieldsglobal/" target="_blank">
           <img src="img/instagram.png" class="img-fluid " alt="Responsive image">
         </a>
-        <a href="default.asp">
+        <a href="mailto:info@shieldsglobal.com">
           <img src="img/mail.png" class="img-fluid " alt="Responsive image">
         </a>
       </div>
@@ -228,88 +238,15 @@
       </div>
     </div>
   </div>
-  </div>
-
+ </div> 
+  <!-- </div> -->
   <!--Footer End-->
 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-
-
-
-  <!--<button type="button" class="btn btn-primary mb-2" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Email Us: info@shieldsglobal.com</button>
-
-
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="recipient-name" class="form-control-label">Recipient: info@shieldsglobal.com</label>
-                                <input type="text" class="form-control" id="recipient-name">
-                            </div>
-                            <div class="form-group">
-                                <label for="message-text" class="form-control-label">Message:</label>
-                                <textarea class="form-control" id="message-text"></textarea>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Send message</button>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-    crossorigin="anonymous"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 </body>
 
 </html>
